@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body align="center">
+    <fieldset>
+        <br><br>
+        <h1>Conheça as Logos</h1><br>
+        <h2>Programação Web</h2><br><br>
+        <hr><br>
+        <button onclick="alterarImagem('img','html.png');">Clique HTML</button>
+        <button>Clique CSS</button>
+        <button>Clique JavaScript</button>
+        <br><br>
+        <img src="html5-logo-10.png" width="200px" height="200px" alt="Imagem" title="Logo Programação" id="img"><br>
+
+        <script type="text/javascript">
+            function alterarImagem(objeto, caminhoNovaImagem){
+                document.getElementById(objeto).src =caminhoNovaImagem
+            }
+        </script>
+    </fieldset>
+</body>
+
+</html>

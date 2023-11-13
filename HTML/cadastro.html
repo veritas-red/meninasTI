@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(90deg, rgba(215, 236, 255), rgba(139, 200, 255));
+        }
+
+        div {
+            background-color: rgb(215, 236, 255);
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 65px;
+            width: 400px;
+            border-radius: 35px;
+        }
+
+        div img{
+            width: 300px;
+        }
+
+        input {
+            padding: 10px;
+            font-size: 18px;
+            outline: none;
+        }
+
+        button {
+            padding: 9px;
+            font-size: 20px;
+            width: 40%;
+        }
+
+        button:hover {
+            background-color: rgb(165, 209, 248);
+            color: aliceblue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body align="center">
+    <header class="cabecalho" align="left">
+        <img src="c:\PROGRAMAÇÃO WEB\3-SISTEMA\HTML\IMG\580b57fcd9996e24bc43c51f.png" height="100" width="300"><br>
+    </header>
+    <nav class="menu">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="quemsomos.html">Quem Somos</a></li>
+        <li><a href="LOGIN.HTML">Login</a></li>
+        <li><a href="cadastro.html">Cadastra-se</a></li>
+        <a href="#" class="btnface"><IMG src="c:\PROGRAMAÇÃO WEB\3-SISTEMA\HTML\IMG\Facebook_f_logo_(2019).svg.webp"
+            width="5px"></a>
+    <a href="#" class="btninsta"><IMG
+            src="c:\PROGRAMAÇÃO WEB\3-SISTEMA\HTML\IMG\logo-instagram-png-fundo-transparente.webp" width="5px"></a>
+    <a href="#" class="btntwi"><IMG src="c:\PROGRAMAÇÃO WEB\3-SISTEMA\HTML\IMG\logo-black.png.twimg.1920.png"
+            width="5px"></a>
+    </nav>
+    <br><br>
+    <form>
+        <div class="formulario">
+            <img src="IMG/580b57fcd9996e24bc43c51f.png"><br><br>
+            <label>Preencha o cadastro!</label><br><br>
+            <label form="nome">Nome*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Digite seu Nome" required><br><br>
+            <label form="nome">Endereço*</label>
+            <input type="text" placeholder="Digite seu Endereço" required><br><br>
+            <label form="nome">Cidade*</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <Select required>
+                <option>Selecione</option>
+                <option>Campo Bom</option>
+                <option>Estância Velha</option>
+                <option>Ivoti</option>
+                <option>Novo Hamburgo</option>
+                <option>São Leopoldo</option>
+                <option>Sapiranga</option>
+                <option>Sapucaia</option>
+            </Select><br><br>
+            <label form="nome">Telefone*</label>&nbsp;&nbsp;
+            <input type="text" placeholder="Digite seu Telefone" required><br><br> 
+            <label form="nome">E-mail*</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Digite seu E-mail" required><br><br>
+            <input type="submit" value="Cadastrar">&nbsp;&nbsp;
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
